@@ -36,6 +36,21 @@ Choose the option that makes the most sense to you.
 5. Select the kernel to be your newly-created `venv`.
 6. Run the first code cell to verify it works.
 
+
+#### Windows instructions
+
+Following [this link](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/), run the following commands in a terminal to install a virtual environment.
+
+```sh
+py -m venv .venv
+.venv\Scripts\activate
+py -m pip install --upgrade pip
+py -m pip --version
+py -m pip install ipykernel
+py -m pip install matplotlib
+py -m pip install networkx
+```
+
 ## About
 
 ### Repository Description
